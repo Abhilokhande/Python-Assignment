@@ -1,7 +1,8 @@
-A=input("Enter the String ot reverse")
 def reverse(A):
-    str = ""
+    s = " "
     for i in A:
-        str = i + str
-    return str
-  
+        s = i + s
+    return s
+A=input("Enter the String to reverse")
+print("The original string is:",A)
+print("The reverse string is:", reverse(A)) 
