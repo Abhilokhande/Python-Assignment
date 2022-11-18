@@ -12,7 +12,7 @@ def palindrome(a):
              
         else:
             f= 1
-            break;
+            break
     if f == 0:
         print("The entered string is palindrome")
     else:
