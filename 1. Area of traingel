@@ -1,75 +1,17 @@
-Pinclude<stdio.h> #include<stdlib.h>
-
-int allocation [20][20], max [20] [20], available [20],
-
-[20], safe[10],s=0;
-
-int finish [10], work [10], cnt=0, flag=0, temp=0; int p,r,i,j,ch, ind, req[10];
-
-void check()
-
-temp=0;
-
-s=0;
-
-for(i=0;i<p;i++) for(j=0;j<r;j++)
-
-//Calculate need-max-allocation
-
-need[i][j]=max[i][j]-allocation[i][j];
-
-printf("\nNeed Table is: \n"); for (i=0;i<p;i++)
-
-for(j=0;j<r;j++)
-
-printf(":", need[i]{i});
-printf("d", need[i][j]); printf("\n");
-
-}
-
-for(i=0;i<p;i++)
-
-finish[i]=0;// false
-
-for(i=0;i<r;i++) work[i]=available[i];
-
-while(temp<2)
-{
-
-for(i=0;i<p;i++)
-{printf("d", needli][j]); printf("\n");
-
-}
-
-for(i=0;i<p;i++)
-
-finish[i]=0;// false
-
-for(i=0;i<r;i++) 
-work[i]=available[i];
-
-while(temp<2)
-{
-for(i=0;i<p;i++)
-
-
-
-
-
-
 if(flag==1)
 
-for(j=0;j<r;j++)
+{
 
-work[j]=workij]+allocation{i}-
+}
 
-finish(i)=1; safe[s++]=i;
+else
 
-493
+{
 
-50
+printf("\nSystem is in Deadlock state");
 
-temp++;
+printf("\nSystem is in Safe state"):
 
-flag=0;
+printf("\nSafe Sequence is:"); for(i=0;i<p;i++)
 
+printf("P\d\t", safe[i]);
