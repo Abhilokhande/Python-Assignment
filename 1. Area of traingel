@@ -1,17 +1,35 @@
-if(flag==1)
+int main()
 
-{
+82
 
-}
+83
 
-else
+84
 
-{
+system("clear"); printf("\
 
-printf("\nSystem is in Deadlock state");
+ALGORITHM
 
-printf("\nSystem is in Safe state"):
+-BANKER'S
 
-printf("\nSafe Sequence is:"); for(i=0;i<p;i++)
+85
 
-printf("P\d\t", safe[i]);
+printf("\n\nEnter the no of resources and processes: ");
+
+scanf("%d", &r,&p);
+
+printf("\nEnter the Allocation Table:\n");
+
+for(i=0;i<p;i++) //Accept the allocation table
+
+for(j=0;j<r;j++)
+
+scanf("%d",&allocation[i][j]);
+
+printf("\nEnter the Max Table:\n");
+
+for(i=0;i<p;i++) //Accept the max table
+
+for(j=0;j<r;j++)
+
+scanf("d", &max(i][j]);
