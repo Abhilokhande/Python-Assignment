@@ -51,3 +51,25 @@ work[i]=available[i];
 while(temp<2)
 {
 for(i=0;i<p;i++)
+
+
+
+
+
+
+if(flag==1)
+
+for(j=0;j<r;j++)
+
+work[j]=workij]+allocation{i}-
+
+finish(i)=1; safe[s++]=i;
+
+493
+
+50
+
+temp++;
+
+flag=0;
+
